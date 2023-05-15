@@ -10,7 +10,7 @@ def random_predict(number:int=1) ->int:
             break #выход из цикла, если угадали
     return(count)
 print(f'Количество попыток:{random_predict()}')
-def score_game(random_predict) -> int:
+def score_game(random_predict) -> int:#
     
     count_ls=[]# список для сохранения количества попыток
     np.random.seed(1)#фиксирует сид для воспроизводимости
